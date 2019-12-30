@@ -1,6 +1,6 @@
 {
   "name": "shared-package-module-resolver-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A webpack custom resolver plugin to route module resolutions to the root issuer",
   "main": "index.js",
   "scripts": {
