@@ -1,11 +1,12 @@
 {
-  "name": "webpack-shared-package-module-resolver-plugin",
+  "name": "shared-package-module-resolver-plugin",
   "version": "0.0.1",
   "description": "A webpack custom resolver plugin to route module resolutions to the root issuer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "development": true,
   "keywords": [
     "webpack",
     "plugin",
@@ -15,9 +16,12 @@
     "module",
     "resolution"
   ],
-  "peerDependencies": {
-    "webpack": "^4.39.2",
-  },
   "author": "jhonnymichel@outlook.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  },
+  "peerDependencies": {
+    "webpack": "^4.4.0"
+  }
 }

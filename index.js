@@ -1,3 +1,4 @@
+const path = require('path');
 const logging = require('webpack/lib/logging/runtime');
 
 class SharedPackageModuleResolverPlugin {
